@@ -1,5 +1,5 @@
 # PROJECT 3
-[live link](https://github.com/SHUBHAM7306/live-class-project-3)
+[live link](https://shubham-live-class-project-3.netlify.app)
 
 ---
 Name:- SHUBHAM KUAMAR

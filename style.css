@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2B2922;
+    height: 100vh;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 10px 100px;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    list-style: none;
+}
+
+.list {
+    color: #ffff;
+    font-size: 15px;
+}
+
+.active {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 1px solid #A08F36;
+    border-radius: 10px;
+    color: #A08F36;
+}
+
+.container1 {
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    color: #fff;
+}
+
+.container1>p {
+    width: 50%;
+}
+
+.container1>h1 {
+    font-size: 70px;
+}
+
+@media screen and (max-width:1200px) {
+    .container1>p {
+        display: none;
+    }
+    .container1>h1{
+        display: block;
+        margin: auto;
+        font-size: 2rem;
+        text-align: center;
+    }
+    nav >ul>li{
+        display: none;
+    }
+}
+
+.mainImg {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.foot {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.left {
+    position: relative;
+    margin-top: 10%;
+}
+
+.right {
+    position: relative;
+    top: -5px;
+}

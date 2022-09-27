@@ -17,4 +17,4 @@ In this project i have learned many properties of CSS.
 - Font style
 ---
 ## Screenshorts
-![Screenshort](./Screenshot.png)
+![Screenshort](./screenshort/Screenshot.png)
